@@ -92,9 +92,18 @@ body{
     .ContenedorTareas {
         width: 100%;
     }
+    
     .Img {
         display: none;
         justify-content: unset;
+    }
+    
+    .Encabezado h1 {
+         font-size: 200%;
+    
+        
+    .Encabezado h3 {
+         font-size: 100%;
     }
 }
 
