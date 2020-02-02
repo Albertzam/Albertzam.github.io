@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bitter', serif;
+    
+}
+
+.Encabezado{
+    width: 100%;
+    height: 300px;
+    color:whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    background: hsl(198, 43%, 11%); /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(198, 44%, 11%, 0.562), hsla(195, 35%, 19%, 0.527), hsla(198, 39%, 28%, 0.562)); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(198, 43%, 11%, 0.74), hsla(194, 35%, 19%, 0.712), hsla(197, 38%, 28%, 0.678)), url(../IMG/pc2.JPG); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.Encabezado h1{
+    padding: 30px;
+    font-size: 50px;
+    color:  white;
+}
+
+.Encabezado h3{
+    font-size: 20px;
+    color:  white;
+}
+
+.Ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+}
+
+.Titulo {
+    text-align: center;
+}
+
+.Tareas{
+    padding: 20px 0;  
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Tareas-{
+    display: flex;
+}
+
+.Tareas h3 span{
+    font-size: 20px;
+    background-color: rgb(16, 33, 40);
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.Tareas h1{
+    color: rgb(16, 33, 40);
+}
+
+.Tareas h3{
+    color: rgb(16, 33, 40);
+}
+
+.Img{
+    width: 819px;
+    height: 460px;
+}
+
+
