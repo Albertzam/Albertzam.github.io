@@ -13,7 +13,7 @@ body{
     width: 100%;
     height: 300px;
     color:whitesmoke;
-    font-size: 20px;
+  
     text-align: center;
     background: hsl(198, 43%, 11%); /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(198, 44%, 11%, 0.562), hsla(195, 35%, 19%, 0.527), hsla(198, 39%, 28%, 0.562)); /* Chrome 10-25, Safari 5.1-6 */
@@ -25,12 +25,12 @@ body{
 
 .Encabezado h1{
     padding: 30px;
-    font-size: 50px;
+    font-size: 200%;
     color:  white;
 }
 
 .Encabezado h3{
-    font-size: 20px;
+    font-size: 100%;
     color:  white;
 }
 
@@ -45,41 +45,57 @@ body{
 }
 
 .Tareas{
-    padding: 20px 0;  
+    padding: 2% 0;  
     width: 100%;
-    max-width: 1000px;
+    max-width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
 .Tareas-{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .Tareas h3 span{
-    font-size: 20px;
+    font-size: 80%;
     background-color: rgb(16, 33, 40);
     color: white;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    width: 24px;
-    height: 24px;
-    margin-right: 8px;
+    width: 4.4%;
+    height: 4.4%;
+    margin-right: 2%;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
+.Tareas p {
+    font-size: 100%;
+}
 .Tareas h1{
     color: rgb(16, 33, 40);
 }
 
 .Tareas h3{
     color: rgb(16, 33, 40);
+    font-size: 150%;
 }
 
 .Img{
-    width: 819px;
-    height: 460px;
+    width: 200%;
+    height: 150%;
+}
+
+@media screen and (max-width: 500px){
+   
+    .ContenedorTareas {
+        width: 100%;
+    }
+    .Img {
+        display: none;
+        justify-content: unset;
+    }
 }
 
 
