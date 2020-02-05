@@ -5,15 +5,14 @@
 }
 
 body{
-    font-family: 'Bitter', serif;
-    
+    font-family: 'Bitter', serif; 
+    margin-bottom: 5%;
 }
 
 .Encabezado{
     width: 100%;
     height: 300px;
-    color:whitesmoke;
-  
+    color:whitesmoke;  
     text-align: center;
     background: hsl(198, 43%, 11%); /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(198, 44%, 11%, 0.562), hsla(195, 35%, 19%, 0.527), hsla(198, 39%, 28%, 0.562)); /* Chrome 10-25, Safari 5.1-6 */
@@ -24,8 +23,8 @@ body{
 }
 
 .Encabezado h1{
-    padding: 30px;
-    font-size: 250%;
+    padding: 20px;
+    font-size: 230%;
     color:  white;
 }
 
@@ -73,6 +72,7 @@ body{
 .Tareas p {
     font-size: 100%;
 }
+
 .Tareas h1{
     color: rgb(16, 33, 40);
 }
@@ -85,25 +85,26 @@ body{
 .Img{
     width: 200%;
     height: 150%;
-}
+ }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
    
     .ContenedorTareas {
         width: 100%;
+    }    
+
+    .Tareas-{
+        display: inline-block;
+        justify-content: unset;       
     }
-    
-    .Img {
-        display: none;
-        justify-content: unset;
+
+    .Img{
+        width: 100%;
+        height: 80%;
     }
-    
-    .Encabezado h1 {
-         font-size: 200%;
-    }
-        
-    .Encabezado h3 {
-         font-size: 100%;
+
+    body{
+        margin-bottom: 15%;
     }
 }
 
